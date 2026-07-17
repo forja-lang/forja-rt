@@ -6,3 +6,8 @@ description = "Stub de ejecución autónomo ligero para Forja"
 
 [dependencies]
 forja = { path = "../.." }
+forja-gui-rt = { path = "../forja-gui-rt", optional = true }
+
+[features]
+default = []
+gui = ["forja-gui-rt"]
