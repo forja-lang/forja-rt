@@ -1,6 +1,6 @@
 [package]
 name = "forja-rt"
-version = "9.0.0"
+version = "0.9.1"
 edition = "2021"
 description = "Stub de ejecución autónomo ligero para Forja"
 
