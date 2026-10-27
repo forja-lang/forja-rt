@@ -1,8 +1,16 @@
 [package]
 name = "forja-rt"
-version = "0.9.3"
+version = "0.9.4"
 edition = "2021"
 description = "Stub de ejecución autónomo ligero para Forja"
+authors = ["forja-lang"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/forja-lang/forja"
+homepage = "https://github.com/forja-lang/forja"
+documentation = "https://docs.rs/forja-rt"
+readme = "README.md"
+keywords = ["forja", "runtime", "vm", "bytecode"]
+categories = ["compilers", "development-tools"]
 
 [dependencies]
 forja = { path = "../.." }
