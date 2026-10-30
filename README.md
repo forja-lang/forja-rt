@@ -44,7 +44,7 @@ cargo test -p forja-rt --locked
 
 ## Estado
 
-Versión `0.9.4`; es un artefacto de distribución
+Versión `0.9.5`; es un artefacto de distribución
 del repo [forja-lang/forja](https://github.com/forja-lang/forja).
 
 ## Licencia
