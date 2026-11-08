@@ -1,6 +1,6 @@
 [package]
 name = "forja-rt"
-version = "0.9.7"
+version = "0.10.0"
 edition = "2021"
 description = "Stub de ejecución autónomo ligero para Forja"
 authors = ["forja-lang"]
@@ -13,8 +13,8 @@ keywords = ["forja", "runtime", "vm", "bytecode"]
 categories = ["compilers", "development-tools"]
 
 [dependencies]
-forja = { path = "../.." }
-forja-gui-rt = { path = "../forja-gui-rt", optional = true }
+forja = { path = "../../compiler/forja" }
+forja-gui-rt = { path = "../gui-rt", optional = true }
 
 [features]
 default = []
