@@ -14,8 +14,9 @@ categories = ["compilers", "development-tools"]
 
 [dependencies]
 forja = { path = "../../compiler/forja" }
-forja-gui-rt = { path = "../gui-rt", optional = true }
 
 [features]
 default = []
-gui = ["forja-gui-rt"]
+# `forja-rt-gui`: habilita el payload de fuente GUI en `forja::selfrun`.
+# (Antes activaba `forja-gui-rt` como dependencia suelta, que `main.rs` nunca usaba.)
+gui = ["forja/gui"]
